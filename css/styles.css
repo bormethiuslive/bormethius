@@ -1,0 +1,475 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 100px;
+  position: static;
+  z-index: 2;
+  width: 100%;
+}
+.topnav {
+  padding: 0;
+  margin: 0;
+  background-color: #22577A;
+  height: 100px;
+  width: 100%;
+  display: inline-flex;
+  z-index: 2;
+  position: relative;
+}
+
+.topnav_gif {
+  height: 95px;
+  width: 100px;
+  padding: 0;
+  margin: 0 0 0 27%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.navbar {
+  padding: 0;
+  margin: 0 0 0 7%;
+  background: none;
+  float: right;
+  z-index: 2;
+}
+
+.navbar-td {
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-table {
+  margin: 0 0 0 10%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-title {
+
+  font-family: 'Montserrat', sans-serif;
+   margin-top: 0;
+   margin-bottom: 0;
+
+}
+
+.navbar-description {
+
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-content {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 0 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  margin: 0 20px;
+  background: none;
+  transition: 0.3s;
+}
+.navbar-content:hover {
+  background-color: #80ED99;
+}
+  .navbar-content:hover .navbar-link {
+  color: white;
+}
+.content-1 {
+  padding: 0;
+  margin: 0;
+  background-image: url("MarkHeader.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+
+
+  height: 1100px;
+}
+
+.content-1-st {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #38A3A5;
+
+
+
+  height: 900px;
+}
+.st-start-div {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+
+  height: 900px;
+}
+
+
+.st-start-div-h1-h1 {
+
+  margin-bottom: 50px;
+}
+
+.st-start-div-h1-h1-h1 {
+  margin-top: 0;
+}
+
+.st-start-div-tables {
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  width: inherit;
+
+}
+
+.st-start-div-table-left {
+  background: none;
+  width: 100%;
+  margin-right: 3%;
+  height: 202px;
+}
+
+.st-start-div-table-right {
+  background: none;
+  width: 100%;
+  margin-left: 3%;
+  height: 202px;
+}
+
+.content-2 {
+  height: 800px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-start {
+  background: none;
+  height: 50px;
+  width: 975px;
+  margin: 0;
+}
+
+.about-me-logo {
+
+  height: 250px;
+  width: 250px;
+
+
+  margin-top: 25px;
+  z-index: 0;
+}
+
+.about-me-logo-circle {
+  border: solid 5px;
+  border-color: #80ED99;
+  border-radius: 50%;
+  transition: transform .2s;
+}
+
+.about-me-logo-circle:hover {
+    transform: scale(1.2);
+    z-index: 0;
+    position: relative;
+}
+
+.about-me-extra {
+  background: none;
+  height: 300px;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.about-me-start-h1 {
+  margin: 0;
+  padding: 0;
+
+}
+
+.about-me-extra-h2 {
+  margin: 0;
+}
+
+.about-me-start-h1-anchor {
+  text-decoration: underline;
+  color: black;
+}
+
+.about-me-extra-h2-anchor-twitch {
+  color: #693AA7;
+}
+
+.about-me-extra-h2-anchor-discord {
+  color: darkblue;
+}
+
+.about-me-logo-circle {
+  height: 250px;
+  width: 250px;
+}
+
+.about-me-extra-h2-span-intro {
+  margin-bottom: 25px;
+
+}
+
+.hr-1 {
+  color: #80ED99;
+  margin: 0;
+  height: 5px;
+  background-color: #80ED99;
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+
+.navbar-link {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.content-3 {
+  height: 600px;
+  background-color: #22577A;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-games {
+ background: none;
+ height: 400px;
+ width: inherit;
+ margin: 0;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
+
+.my-games-specific::-webkit-scrollbar-track
+{
+
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.my-games-specific::-webkit-scrollbar
+{
+  width: 12px;
+  background: none;
+}
+
+.my-games-specific::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+.my-games-specific {
+  margin: 0 20px 0 20px;
+  overflow-y: scroll;
+}
+
+.my-games-game-1 {
+ background-color: #444;
+ height: 350px;
+ width: 15%;
+ margin: 0 35px 0 12%;
+}
+
+.my-games-game-2 {
+ background-color: #444;
+ height: 350px;
+ width: 15%;
+}
+
+.my-games-game-3 {
+ background-color: #444;
+ height: 350px;
+ width: 15%;
+}
+
+.my-games-game-4 {
+  background-color: #444;
+  height: 350px;
+  width: 15%;
+}
+
+.my-games-game-5 {
+  background-color: #444;
+  height: 350px;
+  width: 15%;
+  margin: 0 12% 0 35px;
+}
+
+.my-games-h1 {
+  margin: 0;
+  display: block;
+}
+
+.content-up-footer {
+  width: 100%;
+  height: 600px;
+}
+
+.content-4 {
+  height: 100px;
+  width: 100%;
+  background-color: #22577A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+.footer {
+  height: 100px;
+  width: inherit;
+  /* background-color: #444; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+}
+
+.footer-extra {
+  width: 250px;
+  height: 100px;
+}
+
+.footer-special-thanks {
+  background: none;
+  margin: 0 30% 0 10%
+}
+
+.footer-socials {
+  background: none;
+  margin: 0 10% 0 30%
+}
+
+.footer-special-thanks-anchor {
+  border: solid 5px;
+  border-color: #80ED99;
+  background: none;
+  padding: 5px 10px 5px 10px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+
+  margin: 50px 0 0 0;
+}
+
+.footer-special-thanks-anchor:hover {
+  background-color: #80ED99;
+  color: black;
+
+}
+
+.footer-special-thanks-text {
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+.social_icon {
+  transition: transform 0.3s ease;
+  padding: 10px 5px 0 5px;
+
+}
+
+.discord_tag {
+  transition: transform 0.3s ease;
+  padding: 0 5px 0 5px;
+  text-decoration: none;
+  color: black
+}
+
+.social_icon:hover {
+  fill: #80ED99;
+  transform: scale(1.1)
+}
+
+.discord_tag:hover {
+  color: #80ED99;
+  transform: scale(1.2  )
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+ul {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+td {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
