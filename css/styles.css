@@ -157,6 +157,10 @@ nav {
   height: 202px;
 }
 
+#magz_mod {
+  height: 46px; 
+}
+
 .content-2 {
   height: 800px;
   background-color: white;
