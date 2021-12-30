@@ -158,7 +158,7 @@ nav {
 }
 
 #magz_mod {
-  height: 46px; 
+  height: 46px;
 }
 
 .content-2 {
@@ -477,3 +477,138 @@ td {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
 }
+
+
+/* Mobile */
+@media only screen and (min-width: 480px) {
+  .topnav_gif {
+    visibility: hidden;
+    margin: 0;
+    width: 0;
+    height: 0;
+  }
+  .my-games-specific {
+    visibility: hidden;
+    margin: 0;
+  }
+  .navbar-table {
+    margin: 0 0 0 0;
+
+  }
+  .ul-navbar {
+    padding-left: 0;
+  }
+  .navbar-content {
+    padding: 0;
+  }
+  .footer-special-thanks {
+    margin-right: 0;
+  }
+  
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Huge */
+@media only screen and (min-width: 1280px) {
+  .no-phones {
+    display: none;
+  }
+
+  .footer-special-thanks {
+    margin-right: 30%;
+  }
+  .navbar-content {
+    padding: 0 20px;
+  }
+  .ul-navbar {
+    padding-left: 40px;
+  }
+  .navbar-table {
+    margin: 0 0 0 10%;
+
+  }
+  .footer-socials {
+    margin-right: 0;
+    margin-left: 20%;
+  }
+
+  .navbar_table {
+    margin-left: 0;
+  }
+  .my-games-specific {
+    margin: 0;
+    visibility: visible;
+  }
+  .my-games-game-1 {
+    margin-right: 5px;
+    width: 17%;
+  }
+  .my-games-game-2 {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 17%;
+  }
+  .my-games-game-3 {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 17%;
+  }
+  .my-games-game-4 {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 17%;
+  }
+  .my-games-game-5 {
+    margin-left: 5px;
+    width: 17%;
+  }
+
+}
+
+/* normal */
+@media only screen and (min-width: 1920px) {
+  .footer-socials {
+    margin-right: 5%;
+  }
+  .topnav_gif {
+    margin-left: 20%;
+    visibility: visible;
+    height: 100px;
+    width: 95px;
+  }
+  .my-games-game-1 {
+
+    margin: 0 35px 0 12%;
+  }
+  .my-games-game-5 {
+
+    margin: 0 12% 0 35px;
+  }
+  .my-games-specific {
+    margin: 0 20px 0 20px;
+  }
+
+
+
+
+
+}
+
+ @media only screen and (min-width: 2560px) {
+   .footer-socials {
+     margin-right: 10%;
+   }
+  .topnav_gif {
+    margin-left: 30%;
+  }
+ }
